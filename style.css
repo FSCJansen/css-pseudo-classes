@@ -1,0 +1,93 @@
+body{
+    background: url(images/coding.jpg) rgb(0 0 0 / 79%);
+    background-size: cover;
+    background-blend-mode: overlay;
+    margin: 0;
+}
+
+a{
+    color: rgb(131, 131, 131)
+}
+
+nav{
+    background-color: darkblue;
+}
+
+nav > ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul > li{
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: verdana;
+    color:#fff;
+}
+
+nav ul > li:first-child{
+    margin-left: 0;
+}
+
+nav ul > li:hover{
+    background-color: rgb(50, 194, 241);
+    border-radius: 4px;
+}
+
+nav a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.currentPage{
+    background-color:rgb(118, 118, 211);
+    border-radius: 4px;
+}
+
+input[type="search"] {
+    border-radius: 4px;
+    height: 25px;
+    border: 2px solid #fff;
+    padding: 5px;
+}
+
+input[type="search"]:focus{
+    border: 2px solid aqua;
+} 
+
+
+
+main{
+    color: #fff;
+    font-family: tahoma;
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+main li:first-child a:hover {
+    color: #007eff;
+    font-weight: bold;
+}
+
+main li:nth-child(2) a:active {
+    color: #ff0000;
+    font-style: italic;
+}
+
+main li:nth-child(3) a:visited {
+    color: #ffff00;
+}
+
+form input{
+    padding: 10px;
+    border: 2px solid #00ff00;
+}
+
+form input:focus{
+    font-size: 20px;
+    color: #008800;
+}
+
